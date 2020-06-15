@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestAutomation" parallel="false">
+
+<!-- <listeners>  
+<listener class-name="Listeners.Listeners"/>  
+</listeners>  
+ -->
+  <test name="ChromeFormFilling">
+    <classes>
+     <class name="TestAuto.duplicatedata"/>
+     <!--  <class name="TestAuto.LoginPageTest"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
